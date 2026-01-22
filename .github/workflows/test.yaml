@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - master
-    worrkflow_dispatch:
+    workflow_dispatch:
 
-    jobs:
-      log_message:
-        runs-on: ubuntu-latest
-        steps:
+jobs:
+   log_message:
+    runs-on: ubuntu-latest
+    steps:
         - name: Log 
           run: echo "The workflow is working!"
