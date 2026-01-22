@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-   log_message:
+  log_message:
     runs-on: ubuntu-latest
     steps:
         - name: Log 
